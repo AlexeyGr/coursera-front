@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+div#row {
+	width: 100%;
+}
+
+div#row > div{
+	padding: 5px;
+}
+
+
+.navbar {
+	background-color: 	#ffcc66;
+}
+
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #fff2cc;
+	}
+}
+
+.text-section {
+	border: 1px solid black;
+	margin: 5px;
+	background-color: lightgrey;
+}
+
+section > p {
+	padding: 7px;
+}
+
